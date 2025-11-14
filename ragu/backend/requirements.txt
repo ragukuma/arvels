@@ -292,4 +292,5 @@ yacs==0.1.8
 your-package-name==1.0.0
 youtube-dl==2021.12.17
 yt-dlp==2025.1.26
-gunicorn
+gunicorn==21.2.0
+
