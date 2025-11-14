@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR VELS MANPOWER GLOBAL CONSULTANCY</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ffffff;
+            color: #333;
+            padding: 1.5rem 3rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            height: 150px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        /* Updated Premium 3D Gradient Text */
+        .logo-text {
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.3;
+            background: linear-gradient(135deg, #FFD93D 0%, #FFC300 40%, #FFA500 70%, #FF8C00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            text-shadow:
+                1px 1px 0 #b38b00,
+                2px 2px 2px rgba(0, 0, 0, 0.4),
+                0 0 20px rgba(255, 217, 61, 0.5);
+            animation: shine 3s infinite linear;
+        }
+
+        .logo-text::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            z-index: -1;
+            background: linear-gradient(135deg, #333 0%, #666 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            opacity: 0.25;
+        }
+
+        .logo-text .company-line1,
+        .logo-text .company-line2 {
+            display: block;
+        }
+
+        .logo-text .ar {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: transparent;
+            background: linear-gradient(145deg, #FFD93D, #FFF56A, #FFC107);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow:
+                0 0 4px rgba(255, 255, 100, 0.7),
+                0 0 12px rgba(255, 200, 60, 0.6);
+        }
+
+        @keyframes shine {
+            0% { text-shadow: 0 0 10px rgba(255, 217, 61, 0.4), 2px 2px 3px rgba(0,0,0,0.3); }
+            50% { text-shadow: 0 0 25px rgba(255, 230, 100, 0.9), 3px 3px 6px rgba(0,0,0,0.4); }
+            100% { text-shadow: 0 0 10px rgba(255, 217, 61, 0.4), 2px 2px 3px rgba(0,0,0,0.3); }
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        nav ul li a:hover {
+            color: #0073e6;
+        }
+
+        /* Rest of your sections continue below unchanged */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="static/artifacts/logo2.png" alt="AR VELS MANPOWER Logo" class="logo">
+            <div class="logo-text" data-text="A.R VELS MANPOWER GLOBAL CONSULTANCY">
+                <span class="company-line1"><span class="ar">A.R</span> VELS MANPOWER</span>
+                <span class="company-line2">GLOBAL CONSULTANCY</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#what-we-do">What we do</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- All other original hero, what-we-do, opportunities, about, services, review, and contact sections remain unchanged -->
+</body>
+</html>
